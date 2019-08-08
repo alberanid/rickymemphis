@@ -13,7 +13,7 @@ After you have unzipped the *rm.zip* file, you can run:
 ```
 export MASTODON_TOKEN="..."
 export MASTODON_SERVER="..."
-docker run -ti -e MASTODON_TOKEN -e MASTODON_SERVER -v `pwd`/rm:/rm rm
+docker run --rm -e MASTODON_TOKEN -e MASTODON_SERVER -v `pwd`/rm:/rm rickymemphis
 ```
 
 # License
